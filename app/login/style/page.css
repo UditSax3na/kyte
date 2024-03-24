@@ -14,14 +14,15 @@ input:-webkit-autofill:active{
     /* -webkit-box-shadow: 0 0 0 30px white inset !important; 
     background-color: green;
 } */
-/* input:-internal-autofill-selected{
-    background-color: green !important;
-} */
-input:-webkit-autofill ,input:-webkit-autofill:hover,
+input:-internal-autofill-selected{
+    /* background-color: green !important; */
+    -webkit-text-fill-color: #333 !important;
+}
+/* input:-webkit-autofill ,input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     -webkit-text-fill-color: #333 !important;
-}
+} */
 
 .label{
     height: 25px;
